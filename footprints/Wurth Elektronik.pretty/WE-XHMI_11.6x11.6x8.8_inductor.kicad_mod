@@ -1,0 +1,157 @@
+(footprint "WE-XHMI_11.6x11.6x8.8_inductor"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "WE-XHMI SMT Power Inductor")
+	(tags "WE XHMI SMT Power Inductor")
+	(property "Reference" "REF**"
+		(at -3.8 -6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dda46b31-7a1d-4a7d-884e-02bae5bb6ef6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WE-XHMI_11.6x11.6x8.8_inductor"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51a90f56-0171-4575-94ac-0538be4332a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74439369047.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0265aadf-d17e-4634-9eaf-2b5dfbe3311f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "WE-XHMI SMT Power Inductor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b8193b9-4721-43ff-acdc-4aa5d9740eee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -5.8 -5.25)
+		(end 5.8 5.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "68fc1c3e-00ea-475a-85f9-9e1486166ae3")
+	)
+	(fp_rect
+		(start -6 -5.5)
+		(end 6 5.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3aa6e9db-6d23-4e76-b429-142e281c291f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5a7b556a-362a-463a-ab5b-8706c6e2a032")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -3.2)
+		(size 9 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "8bfb8e0a-4830-477d-8ab0-66c35ee46bad")
+	)
+	(pad "2" smd rect
+		(at 0 3.2)
+		(size 9 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "10092f51-1b2e-4752-b694-044593343661")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "a25501d4-8f9b-4c31-9fe4-cbb191f24302")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -4.5 -1.95) (xy 4.5 -1.95) (xy 4.5 1.95) (xy -4.5 1.95)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/Download_STP_WE-XHMI-1090 (rev1).stp"
+		(offset
+			(xyz 0 0 0.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

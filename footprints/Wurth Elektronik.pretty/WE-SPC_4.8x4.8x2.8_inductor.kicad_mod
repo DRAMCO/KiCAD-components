@@ -1,0 +1,137 @@
+(footprint "WE-SPC_4.8x4.8x2.8_inductor"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.5 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b787d436-b206-4271-a89b-eaced072e91b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WE-SPC_4.8x4.8x2.8_inductor"
+		(at 0 3.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e34aa07-4afc-4b44-897d-901f20132ac9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be02f494-a7b0-4c76-a6ea-05f36506b752")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6f1d28b-f91e-4848-854b-37841f55adf0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d697454f-e570-4cec-8249-963fa7cdf311")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.4 0.6)
+		(end -2.4 -0.6)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e84bdc71-22bb-46f5-89a0-ab243645fa55")
+	)
+	(fp_line
+		(start 2.4 0.6)
+		(end 2.4 -0.6)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "42c2232a-0c44-4517-80d9-139d6d300f5f")
+	)
+	(fp_rect
+		(start -2.8 -2.9)
+		(end 2.8 2.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "88bd83e7-df54-44af-be57-77f1afcfdf55")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d73e8300-999e-42d9-a28e-f276ad1757f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -1.75)
+		(size 5.3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "36985313-23d7-48ad-a661-a55c24c3d0bf")
+	)
+	(pad "2" smd rect
+		(at 0 1.75)
+		(size 5.3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "859a12d3-07fe-4248-8dba-5b8e496d0236")
+	)
+	(model "${KICAD_USER_3DMODEL_DIR}/WE-SPC_4828SPC (rev1).stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

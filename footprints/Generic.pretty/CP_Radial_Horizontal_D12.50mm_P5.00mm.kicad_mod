@@ -1,0 +1,241 @@
+(footprint "CP_Radial_Horizontal_D12.50mm_P5.00mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 5.125 -3.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "10f3c232-256a-4552-bbac-728c16ac2452")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CP_Radial_Horizontal_D12.50mm_P5.00mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b95a3b0-5715-4647-9f13-59c9b972a833")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2afce6b5-d399-415f-8591-401397ad7a29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a124d60-2629-4dbc-9267-e54d9d0e614b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.7 -1.5)
+		(end -3.3 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "04e1090d-2cfd-4af5-a87b-1c230d6f7b60")
+	)
+	(fp_line
+		(start -4 -2.2)
+		(end -4 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "487d5766-532e-4b07-a4f1-a413186c3a63")
+	)
+	(fp_line
+		(start -2.5 -1.1)
+		(end -2.5 -4)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3e0144c0-09a6-4233-baf6-25c386c1de50")
+	)
+	(fp_line
+		(start 2.5 -1.1)
+		(end 2.5 -4)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e3e9bd5c-32ab-45be-89ce-32da9375f707")
+	)
+	(fp_rect
+		(start -6.25 -44.1)
+		(end 6.25 -4.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6a5c8cf1-a9ce-4f7c-afef-a4c6c20f0f77")
+	)
+	(fp_rect
+		(start 4 -44.1)
+		(end 6.25 -4.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "1a0c9908-6376-413e-ab83-e0cadc784f81")
+	)
+	(fp_line
+		(start -6.5 -44.4)
+		(end 6.5 -44.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd554736-7502-41a9-b82e-d317fa47af24")
+	)
+	(fp_line
+		(start -6.5 -3.8)
+		(end -6.5 -44.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "591bd81c-e1ee-4af8-aacf-75af634fada9")
+	)
+	(fp_line
+		(start -3.6 -3.8)
+		(end -6.5 -3.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b6ed925-7ed6-487d-9988-7454b879a21b")
+	)
+	(fp_line
+		(start -3.6 1.1)
+		(end -3.6 -3.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b7c1d2c5-a354-45a9-b243-798b178c5c70")
+	)
+	(fp_line
+		(start 3.6 -3.8)
+		(end 3.6 1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3358660f-9b2a-4991-9e67-ab02b354b8b2")
+	)
+	(fp_line
+		(start 3.6 1.1)
+		(end -3.6 1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "726c5845-3fc6-470b-af2c-f07fe6fc8169")
+	)
+	(fp_line
+		(start 6.5 -44.4)
+		(end 6.5 -3.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "becccce2-7fac-4959-9acb-5617cc9cfe9f")
+	)
+	(fp_line
+		(start 6.5 -3.8)
+		(end 3.6 -3.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b9cf7db-2be0-4e9f-bd5b-252647efa436")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -24.1 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "aec8fc7d-e053-440e-aeda-e9e430a6cc58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.5 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "dba409ab-e235-466e-a1be-3d4769be2973")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3c8a988c-b4cc-46b8-8a1f-20bcb50181b9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/Elco_12.5x40_axial.step"
+		(offset
+			(xyz 0 4 6.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)

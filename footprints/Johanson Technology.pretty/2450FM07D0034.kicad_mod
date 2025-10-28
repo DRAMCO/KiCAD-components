@@ -1,0 +1,131 @@
+(footprint "2450FM07D0034"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Miniature 2.45GHz Impedance Matched Front-End Filter Optimized for Semtech SX1280, SX1281")
+	(tags "SX1280 SX1281 filter matched Semtech")
+	(property "Reference" "REF**"
+		(at 0.4 -1.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d7d5dfe3-2796-4996-b315-e60b604c3b69")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.13)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "161a0389-5af4-4cad-bdca-762aa04e17eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.johansontechnology.com/docs/895/2450FM07D0034_gX120Po.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c1ad691-53ee-4d2f-b075-8583c9a7f050")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Miniature 2.45GHz Impedance Matched Front-End Filter Optimized for Semtech SX1280, SX1281"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f7115a7-6efe-4002-bbf7-281911ca1897")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c4a6b5eb-277e-4cb1-8d73-42c57194af27")
+	)
+	(fp_circle
+		(center -0.7 0.6)
+		(end -0.6 0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "7de994dd-7558-4643-9177-161ea16d38a6")
+	)
+	(fp_rect
+		(start -1 -0.7)
+		(end 1 0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3df3bd00-586d-4559-9d24-d59f5ca9a435")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bc678031-b9d7-4a65-a1f6-7f104cf7a940")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.13)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.6 0)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d862a6fe-4db4-446c-ba33-ad27988772db")
+	)
+	(pad "2" smd rect
+		(at 0 0.35)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7f188729-1501-4a8a-8a1b-ab6ccfecf6d5")
+	)
+	(pad "3" smd rect
+		(at 0.6 0)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5af3af82-d2ca-41b9-9f06-48a9ef070526")
+	)
+	(pad "4" smd rect
+		(at 0 -0.35)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "31ee3b7d-2c2e-457f-8177-ef3b34151a7c")
+	)
+	(embedded_fonts no)
+)
