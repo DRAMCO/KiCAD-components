@@ -1636,7 +1636,25 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 55.88 270)
+				(at 1.27 -55.88 90)
+				(length 5.08)
+				(name "VCOMPLF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 55.88 270)
 				(length 5.08)
 				(name "VCCPLF"
 					(effects
@@ -1654,16 +1672,16 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 55.88 270)
+				(at 11.43 55.88 270)
 				(length 5.08)
-				(name "VCOMPLF"
+				(name "VPUMP"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "F2"
+				(number "J9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1707,24 +1725,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 17.145 56.515 270)
-				(length 5.08)
-				(name "VPUMP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at 19.05 -55.88 90)
 				(length 5.08)
@@ -1743,6 +1743,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 20.32 55.88 270)
+				(length 5.08)
+				(name "VJTAG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at 21.59 -55.88 90)
 				(length 5.08)
@@ -1754,24 +1772,6 @@
 					)
 				)
 				(number "H9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 23.495 56.515 270)
-				(length 5.08)
-				(name "VJTAG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "G8"
 					(effects
 						(font
 							(size 1.27 1.27)

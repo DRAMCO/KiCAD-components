@@ -1720,7 +1720,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.955 13.97 180)
+				(at 21.59 13.97 180)
 				(length 5.08)
 				(name "RFC"
 					(effects
@@ -1741,7 +1741,7 @@
 		(symbol "ADG904BCPZ_1_1"
 			(rectangle
 				(start -16.51 21.59)
-				(end 15.875 -25.4)
+				(end 16.51 -25.4)
 				(stroke
 					(width 0.254)
 					(type solid)

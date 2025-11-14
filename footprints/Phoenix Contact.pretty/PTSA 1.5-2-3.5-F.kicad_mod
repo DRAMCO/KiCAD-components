@@ -1,0 +1,120 @@
+(footprint "PTSA 1.5-2-3.5-F"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3 -8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3b04aa64-b4ae-4b5c-9159-7ccfc7bbffaa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PTSA 1.5-2-3.5-F"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f08331e-d98a-46c6-bdaf-79ecd09878d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96370c06-39b6-47b0-88fc-4a01092f66e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ea399bc-4f11-48db-b2dc-66e1c3d207f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -5 -7.3)
+		(end 3.5 4.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "57cfbbda-1637-41f1-94cc-ab7ece11ee8c")
+	)
+	(fp_rect
+		(start -5.3 -7.6)
+		(end 3.8 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "087288cc-9613-414e-98ce-c15244b2e091")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b6ce1355-33f9-4cd6-ab59-91d9b42f98e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.75 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "941b99fa-30ea-41ca-83f7-cac60ba18bc2")
+	)
+	(pad "2" thru_hole circle
+		(at 1.75 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c4ed2816-0fec-4220-b22a-7ea50598c211")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/pxc_1984963_06_02_PTSA-1-5-2-3-5-F_3D.stp"
+		(offset
+			(xyz -3.5 -4.7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
