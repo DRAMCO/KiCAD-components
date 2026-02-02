@@ -1137,7 +1137,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:Texas_DDF0008A_SOT-8_1.6x2.9mm_P0.65mm"
-			(at 0 -15.748 0)
+			(at -0.254 -31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1146,7 +1146,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/mspm0c1104.pdf?ts=1761548210230&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FMSPM0C1104"
-			(at 0.254 -10.16 0)
+			(at 0 -25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,7 +1155,7 @@
 			)
 		)
 		(property "Description" "MSPM0C110x, MSPS003 Mixed-Signal Microcontrollers"
-			(at 0 -12.192 0)
+			(at -0.254 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1164,7 +1164,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 0 -19.05 0)
+			(at -0.254 -34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1173,7 +1173,7 @@
 			)
 		)
 		(property "Part Number" "MSPM0C1104SDDF"
-			(at 0 -21.082 0)
+			(at -0.254 -36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,7 +1182,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 0 -17.272 0)
+			(at -0.254 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1191,7 +1191,7 @@
 			)
 		)
 		(property "Supplier Part Number" "595-MSPM0C1104SDDFR"
-			(at 0 -13.97 0)
+			(at -0.254 -29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1230,32 +1230,14 @@
 			(pin passive line
 				(at -24.13 1.27 0)
 				(length 5.08)
-				(name "PA1/NRST"
+				(name "PA24/A3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -24.13 -2.54 0)
-				(length 5.08)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1264,7 +1246,7 @@
 				)
 			)
 			(pin power_in line
-				(at -24.13 -6.35 0)
+				(at 0 12.7 270)
 				(length 5.08)
 				(name "VDD"
 					(effects
@@ -1281,17 +1263,35 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 24.13 5.08 180)
+			(pin power_in line
+				(at 0 -13.97 90)
 				(length 5.08)
-				(name "PA24/A3"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 24.13 5.08 180)
+				(length 5.08)
+				(name "PA0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1301,24 +1301,6 @@
 			)
 			(pin passive line
 				(at 24.13 1.27 180)
-				(length 5.08)
-				(name "PA20/A6/SWDCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 24.13 -2.54 180)
 				(length 5.08)
 				(name "PA19/SWDIO"
 					(effects
@@ -1336,16 +1318,34 @@
 				)
 			)
 			(pin passive line
-				(at 24.13 -6.35 180)
+				(at 24.13 -2.54 180)
 				(length 5.08)
-				(name "PA0"
+				(name "PA20/A6/SWDCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 24.13 -6.35 180)
+				(length 5.08)
+				(name "PA1/NRST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
